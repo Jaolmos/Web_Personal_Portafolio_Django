@@ -11,10 +11,10 @@
     <h1>Web personal</h1>
 
     <ul>
-        <li><a href="/">Portada</a></li>
-        <li><a href="/about/">Acerca de</a></li>
-        <li><a href="/portfolio/">Portafolio</a></li>
-        <li><a href="/contact/">Contacto</a></li>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'about' %}">Acerca de</a></li>
+        <li><a href="{% url 'portfolio' %}">Portafolio</a></li>
+        <li><a href="{% url 'contact' %}">Contacto</a></li>
     </ul>
 
     <!-- Contenido -->
