@@ -1,14 +1,22 @@
 {% extends 'core/base.html'%}
 
-{% block title %}
+{% block title %}Home{% endblock title %}
+    
 
-Home
 
-{% endblock title %}
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock background %}
+    
+    
+
+
+
+{% block headers%}
+<h1>Jose A Olmos</h1>
+<span class="subheading">Desarrollador Junior</span>
+{% endblock headers%}
+
 
 
 {% block content %}
-
-<h1>Este es el home</h1>
 
 {% endblock content %}
